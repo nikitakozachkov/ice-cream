@@ -1,0 +1,121 @@
+.modal-checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+.modal_buy-now__list {
+  margin-bottom: 31px;
+  
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+
+  &:first-child {
+    padding-top: 64px;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 84px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+.modal_buy-now__item {
+
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+
+.modal-product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 132px;
+  height: 136px;
+  border-radius: 15px;
+  transition: background-color 250ms linear, transform 250ms linear;
+
+  @media screen and (min-width: 768px) {
+    height: 135px;
+  }
+
+  &:hover {
+    transform: scale(105%);
+  }
+}
+
+.product-ice-cream {  
+  border: 2px solid #96AF8C;
+
+  .checkbox:checked + & {
+    background-color: #96AF8C;
+  }
+
+  & .modal-product__frame {
+    background-color: rgba(156,190,143,0.7);
+    box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
+  }
+}
+
+.product-ice-coffe {  
+  border: 2px solid #EFD478;
+
+  .checkbox:checked + & {
+    background-color: #EFD478;
+  }
+
+  & .modal-product__frame {
+    background-color: rgba(248,210,78,0.7);
+    box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+  }
+}
+
+.product-milkshake {  
+  border: 2px solid #D6936D;
+
+  .checkbox:checked + & {
+    background-color: #D6936D;
+  }
+
+  & .modal-product__frame {
+    background-color: rgba(213,117,63,0.7);
+    box-shadow: 0px 5.26027px 19.726px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.modal-product__frame {
+  width: 132px;
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.modal-product__image {
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translateY(-5%);
+}
+
+.modal-product__name {
+  margin-bottom: 20px;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+}

@@ -1,0 +1,39 @@
+.section__title {
+  font-family: Seymour One, sans-serif;
+  font-size: 30px;
+  line-height: 37.71px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: inherit;
+
+  @media screen and (min-width: 768px) {
+    font-size: 34px;
+    line-height: 42.73px;
+  }  
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 45.25px;
+    letter-spacing: 0.06em;
+  }
+}
+.section__subtitle {
+  margin-bottom: 12px;
+
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21.94px;
+  text-transform: uppercase;
+  color: inherit;
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    line-height: 26.82px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 36.57px;
+    letter-spacing: 0.04em;
+  }
+}

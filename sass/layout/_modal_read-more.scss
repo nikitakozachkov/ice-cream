@@ -1,0 +1,20 @@
+.modal-read-more {
+  @media screen and (min-width: 768px) {
+    padding: 32px 60px;
+  }
+
+  & .modal__title {
+    width: 171px;
+    
+    @media screen and (min-width: 768px) {
+      width: 322px;
+      margin-bottom: 32px; 
+    }
+  }
+
+  &__frame {
+    @media screen and (min-width: 768px) {
+      height: 205px;
+    }
+  }
+}
