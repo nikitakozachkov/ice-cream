@@ -1,0 +1,23 @@
+.modal-our-location {
+  @media screen and (min-width: 768px) {
+    padding: 32px 60px;
+  }
+
+  &__title {
+    margin-bottom: 32px;
+  }
+  
+  .modal-our-location__frame {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__link {
+    width: 134px;
+    
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+    }
+  }
+}

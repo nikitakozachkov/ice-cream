@@ -68,8 +68,14 @@
     height: 32px;
     border: 0;
     background-color: transparent;
-  
+    transition: transform 300ms linear;
+
     color: #fff;
+      
+    &:hover,
+    &:focus {
+      transform: scale(120%);
+    }
 
     @media screen and (min-width: 1200px) {
       display: none;

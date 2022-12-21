@@ -457,7 +457,7 @@
         </ul>
         <ul class="contacts-buttons">
           <li class="contacts-buttons__item">
-            <button class="contacts-buttons__button button">
+            <button class="contacts-buttons__button button" type="button" our-location-open>
               Our Locations
               <span class="button-arrow">
                 <svg class="icon">
@@ -467,7 +467,7 @@
             </button>
           </li>
           <li class="contacts-buttons__item">
-            <button class="contacts-buttons__button button--transparent">
+            <button class="contacts-buttons__button button--transparent" type="button" franchise-open>
               Franchise
               <span class="button-arrow">
                 <svg class="icon">
@@ -1041,6 +1041,47 @@
         <p class="modal__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
       </div>
     </div>
+    <!-- our-location -->
+    <div class="backdrop is-hidden" our-location-modal>
+      <div class="modal-our-location modal">
+        <button class="modal-close" our-location-close>
+          <svg class="icon">
+            <use href="./img/icons.svg#modal-close"></use>
+          </svg>
+        </button>
+        <h3 class="modal-our-loctaion__title modal__title">Our Locations</h3>
+        <div class="modal-our-location__frame modal__frame">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165489.7099705025!2d34.41715582800018!3d49.60195993006719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d825e425e6ba6b%3A0xcf3e6bdfb9e4ca82!2z0J_QvtC70YLQsNCy0LAsINCf0L7Qu9GC0LDQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgMzYwMDA!5e0!3m2!1sru!2slv!4v1671604252664!5m2!1sru!2slv" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a href="https://www.google.com/maps?q=poltava&rlz=1C1IXYC_ruLV1023LV1024&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj3x9aBi4r8AhWSXvEDHXXlDPAQ_AUoAnoECAEQBA" target="_blank" class="modal-our-location__link button">Open map</a>
+      </div>
+    </div>
+    <!-- franchise -->
+    <div class="backdrop is-hidden" franchise-modal>
+      <div class="modal-franchise modal">
+        <button class="modal-close" franchise-close>
+          <svg class="icon">
+            <use href="./img/icons.svg#modal-close"></use>
+          </svg>
+        </button>
+        <h3 class="modal-franchise__title modal__title">Thank you for your interest in owning an Ice Cream shop</h3>
+        <p class="modal-franchise__text modal__text">Due to the overwhelming volume of franchise requests we are not accepting new franchisee applications at this time. Once the application process resumes, we will contact you for further information. Please fill out the contact information below and we will reach out for additional information. We appreciate your patience.</p>
+        <form class="modal-form">
+          <ul class="modal-list">
+            <li class="modal-list__item">
+              <input type="text" placeholder="Name" name="name" class="modal-form__input" pattern="\w{3,16}" required>
+            </li>
+            <li class="modal-list__item">
+              <input type=tel" placeholder="Phone" name="phone" class="modal-form__input" pattern="[0-9]{10}" required>
+            </li>
+            <li class="modal-list__item">
+              <textarea placeholder="Comment" name="comment" class="modal-form__input" pattern="\w{228}" required></textarea>
+            </li>
+          </ul>
+          <button type="submit" class="modal-franchise__button button">Submit</button>
+        </form>
+      </div>
+    </div>
 
     <!-- java script -->
     <script src="./js/menu.js"></script>
@@ -1051,5 +1092,7 @@
     <script src="./js/modal_ingredients__two.js"></script>
     <script src="./js/modal_ingredients__three.js"></script>
     <script src="./js/modal_read-more.js"></script>
+    <script src="./js/modal_our-location.js"></script>
+    <script src="./js/modal_franchise.js"></script>
 	</body>
 </html>

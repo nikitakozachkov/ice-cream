@@ -1,0 +1,32 @@
+.modal-franchise {
+  padding: 32px 60px;
+
+  &__title {
+    @media screen and (min-width: 768px) {
+      width: 322px;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__button {
+    width: 114px;
+    
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+    }
+  }
+
+  & .modal-list {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 32px;
+    }
+  }
+}

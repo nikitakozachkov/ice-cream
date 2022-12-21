@@ -177,6 +177,8 @@
     left: 50%;
     width: 177px;
     transform: translateX(-50%);
+    pointer-events: none;
+    animation: slide 850ms 1 linear;
 
     @media screen and (min-width: 768px) {
       width: 268px;
@@ -186,6 +188,11 @@
     @media screen and (min-width: 1200px) {
       width: 456px;
       left: 73.5%;
+    }
+
+    @keyframes slide {
+      0%   { bottom: -52.5%; }
+      100% { bottom: 0; }
     }
   }
 

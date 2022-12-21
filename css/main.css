@@ -593,7 +593,15 @@ img {
   height: 32px;
   border: 0;
   background-color: transparent;
+  -webkit-transition: -webkit-transform 300ms linear;
+  transition: -webkit-transform 300ms linear;
+  transition: transform 300ms linear;
+  transition: transform 300ms linear, -webkit-transform 300ms linear;
   color: #fff;
+}
+.header-menu:hover, .header-menu:focus {
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
 }
 @media screen and (min-width: 1200px) {
   .header-menu {
@@ -813,6 +821,9 @@ img {
   width: 177px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  pointer-events: none;
+  -webkit-animation: slide 850ms 1 linear;
+          animation: slide 850ms 1 linear;
 }
 @media screen and (min-width: 768px) {
   .hero__img {
@@ -824,6 +835,22 @@ img {
   .hero__img {
     width: 456px;
     left: 73.5%;
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    bottom: -52.5%;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes slide {
+  0% {
+    bottom: -52.5%;
+  }
+  100% {
+    bottom: 0;
   }
 }
 .hero-cafes {
@@ -2058,6 +2085,59 @@ img {
 @media screen and (min-width: 768px) {
   .modal-read-more__frame {
     height: 205px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-our-location {
+    padding: 32px 60px;
+  }
+}
+.modal-our-location__title {
+  margin-bottom: 32px;
+}
+@media screen and (max-width: 767px) {
+  .modal-our-location .modal-our-location__frame {
+    margin-bottom: 24px;
+  }
+}
+.modal-our-location__link {
+  width: 134px;
+}
+@media screen and (max-width: 767px) {
+  .modal-our-location__link {
+    font-size: 12px;
+  }
+}
+
+.modal-franchise {
+  padding: 32px 60px;
+}
+@media screen and (min-width: 768px) {
+  .modal-franchise__title {
+    width: 322px;
+    margin-bottom: 24px;
+  }
+}
+.modal-franchise__text {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .modal-franchise__text {
+    margin-bottom: 32px;
+  }
+}
+.modal-franchise__button {
+  width: 114px;
+}
+@media screen and (max-width: 767px) {
+  .modal-franchise__button {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal-franchise .modal-list {
+    margin-bottom: 32px;
   }
 }
 
