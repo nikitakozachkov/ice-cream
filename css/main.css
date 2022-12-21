@@ -786,6 +786,8 @@ img {
 }
 .hero__title {
   margin-bottom: 32px;
+  -webkit-animation: sizing 650ms 1 linear;
+          animation: sizing 650ms 1 linear;
   width: 247px;
   font-family: Seymour One, sans-serif;
   font-size: 26px;
@@ -804,6 +806,22 @@ img {
     line-height: 48px;
   }
 }
+@-webkit-keyframes sizing {
+  0% {
+    scale: 45%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
+@keyframes sizing {
+  0% {
+    scale: 45%;
+  }
+  100% {
+    scale: 100%;
+  }
+}
 .hero-button {
   width: 108px;
   font-size: 12px;
@@ -817,10 +835,10 @@ img {
 .hero__img {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  left: 45.5%;
   width: 177px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translateX(-45.5%);
+          transform: translateX(-45.5%);
   pointer-events: none;
   -webkit-animation: slide 850ms 1 linear;
           animation: slide 850ms 1 linear;
