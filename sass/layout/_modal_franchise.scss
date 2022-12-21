@@ -1,5 +1,8 @@
 .modal-franchise {
-  padding: 32px 60px;
+
+  @media screen and (min-width: 768px) {
+    padding: 32px 60px;
+  }
 
   &__title {
     @media screen and (min-width: 768px) {
