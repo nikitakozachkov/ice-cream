@@ -117,368 +117,373 @@
         </div>
       </div>
     </header>
-    <!-- hero -->
-    <section class="hero">
-      <div class="container">
-        <ul class="hero-content">
-          <li class="hero-content__item">
-            <h1 class="hero__title">Ice Cream Made With <span>Passion</span></h1>
-            <ul class="hero-list">
-              <li class="hero-list__item">
-                <a href="#our-products" class="hero-button button--transparent">Products</a>
-              </li>
-              <li class="hero-list__item">
-                <a href="#how-its-made" class="hero-list__link">How it's made?</a>
-              </li>
-            </ul>
-            <div class="hero-info hero-info__left">
-              <div class="hero-info__img">
-                <img
-                  srcset="./img/png/img-hero_ice-cream.png 1x, ./img/png/img-hero_ice-cream@x2.png 2x"       
+    
+    <!-- main -->
+    <main class="main">
+      <!-- hero -->
+      <section class="hero">
+        <div class="container">
+          <ul class="hero-content">
+            <li class="hero-content__item">
+              <h1 class="hero__title">Ice Cream Made With <span>Passion</span></h1>
+              <ul class="hero-list">
+                <li class="hero-list__item">
+                  <a href="#our-products" class="hero-button button--transparent">Products</a>
+                </li>
+                <li class="hero-list__item">
+                  <a href="#how-its-made" class="hero-list__link">How it's made?</a>
+                </li>
+              </ul>
+              <div class="hero-info hero-info__left">
+                <div class="hero-info__img">
+                  <img
+                    srcset="./img/png/img-hero_ice-cream.png 1x, ./img/png/img-hero_ice-cream@x2.png 2x"       
+                    src="./img/png/img-hero_mobile.png" 
+                    alt="Ice-Cream"
+                  />
+                </div>
+                <div class="hero-info__thumb">
+                  <p class="hero-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                  <button class="hero-info__button" type="button" ingredients-open>
+                    <svg class="icon">
+                      <use href="./img/icons.svg#arrow"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="hero-content__item">
+              <div class="hero__img">
+                <img class="img-mobile"
+                  srcset="./img/png/img-hero_mobile.png 1x, ./img/png/img-hero_mobile@x2.png 2x"
+
                   src="./img/png/img-hero_mobile.png" 
                   alt="Ice-Cream"
                 />
+                <img class="img-tablet"
+                  srcset="./img/png/img-hero_tablet.png 1x, ./img/png/img-hero_tablet@x2.png 2x"
+
+                  src="./img/png/img-hero_tablet.png" 
+                  alt="Ice-Cream"
+                />
+                <img class="img-desktop"
+                  srcset="./img/png/img-hero_desktop.png 1x, ./img/png/img-hero_desktop@x2.png 2x"
+
+                  src="./img/png/img-hero_desktop.png" 
+                  alt="Ice-Cream"
+                />
               </div>
-              <div class="hero-info__thumb">
-                <p class="hero-info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                <button class="hero-info__button" type="button" ingredients-open>
+              <div class="hero-info hero-info__right">
+                <div class="hero-cafes">
+                  <p class="hero-info__number">16</p>
+                  <p class="hero-info__name">cafes</p>
+                </div>
+                <div class="hero-foodtrucks">
+                  <p class="hero-info__number">23</p>
+                  <p class="hero-info__name">foodtrucks</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- our products -->
+      <section class="products" id="our-products">
+        <div class="container">
+          <p class="products__subtitle section__subtitle">100% natural</p>
+          <h2 class="products__title section__title">Products</h2>
+          <ul class="products-list">
+            <li class="products-list__item">
+              <div class="products-card card_ice-cream">
+                <div class="products-card__frame">
+                  <div class="products-card__image">
+                    <img
+                          srcset="./img/jpeg/img-products_1.jpg 1x, ./img/jpeg/img-products_1@x2.jpg 2x"       
+                          src="./img/jpeg/img-products_1.jpg" 
+                          alt="Ice Cream"
+                        />
+                  </div>
+                </div>
+                <div class="products-card__info">
+                  <h3 class="products-card__title">Ice Cream</h3>
+                  <p class="products-card__subtitle">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer</p>
+                </div>
+                <button class="products-card__button" type="button" ingredients_one-open>
                   <svg class="icon">
                     <use href="./img/icons.svg#arrow"></use>
                   </svg>
                 </button>
               </div>
-            </div>
-          </li>
-          <li class="hero-content__item">
-            <div class="hero__img">
-              <img class="img-mobile"
-                srcset="./img/png/img-hero_mobile.png 1x, ./img/png/img-hero_mobile@x2.png 2x"
-
-                src="./img/png/img-hero_mobile.png" 
-                alt="Ice-Cream"
-              />
-              <img class="img-tablet"
-                srcset="./img/png/img-hero_tablet.png 1x, ./img/png/img-hero_tablet@x2.png 2x"
-
-                src="./img/png/img-hero_tablet.png" 
-                alt="Ice-Cream"
-              />
-              <img class="img-desktop"
-                srcset="./img/png/img-hero_desktop.png 1x, ./img/png/img-hero_desktop@x2.png 2x"
-
-                src="./img/png/img-hero_desktop.png" 
-                alt="Ice-Cream"
-              />
-            </div>
-            <div class="hero-info hero-info__right">
-              <div class="hero-cafes">
-                <p class="hero-info__number">16</p>
-                <p class="hero-info__name">cafes</p>
-              </div>
-              <div class="hero-foodtrucks">
-                <p class="hero-info__number">23</p>
-                <p class="hero-info__name">foodtrucks</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- our products -->
-    <section class="products" id="our-products">
-      <div class="container">
-        <p class="products__subtitle section__subtitle">100% natural</p>
-        <h2 class="products__title section__title">Products</h2>
-        <ul class="products-list">
-          <li class="products-list__item">
-            <div class="products-card card_ice-cream">
-              <div class="products-card__frame">
-                <div class="products-card__image">
-                  <img
-                        srcset="./img/jpeg/img-products_1.jpg 1x, ./img/jpeg/img-products_1@x2.jpg 2x"       
-                        src="./img/jpeg/img-products_1.jpg" 
-                        alt="Ice Cream"
-                      />
+            </li>
+            <li class="products-list__item">
+              <div class="products-card card_ice-coffee">
+                <div class="products-card__frame">
+                  <div class="products-card__image">
+                    <img
+                          srcset="./img/jpeg/img-products_2.jpg 1x, ./img/jpeg/img-products_2@x2.jpg 2x"       
+                          src="./img/jpeg/img-products_2.jpg" 
+                          alt="Ice Coffee"
+                        />
+                  </div>
                 </div>
-              </div>
-              <div class="products-card__info">
-                <h3 class="products-card__title">Ice Cream</h3>
-                <p class="products-card__subtitle">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer</p>
-              </div>
-              <button class="products-card__button" type="button" ingredients_one-open>
-                <svg class="icon">
-                  <use href="./img/icons.svg#arrow"></use>
-                </svg>
-              </button>
-            </div>
-          </li>
-          <li class="products-list__item">
-            <div class="products-card card_ice-coffee">
-              <div class="products-card__frame">
-                <div class="products-card__image">
-                  <img
-                        srcset="./img/jpeg/img-products_2.jpg 1x, ./img/jpeg/img-products_2@x2.jpg 2x"       
-                        src="./img/jpeg/img-products_2.jpg" 
-                        alt="Ice Coffee"
-                      />
+                <div class="products-card__info">
+                  <h3 class="products-card__title">Ice Coffee</h3>
+                  <p class="products-card__subtitle">Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers</p>
                 </div>
+                <button class="products-card__button" type="button" ingredients_two-open>
+                  <svg class="icon">
+                    <use href="./img/icons.svg#arrow"></use>
+                  </svg>
+                </button>
               </div>
-              <div class="products-card__info">
-                <h3 class="products-card__title">Ice Coffee</h3>
-                <p class="products-card__subtitle">Fragrant invigorating drink created from 100% natural ingredients without the use of preservatives and flavor enhancers</p>
-              </div>
-              <button class="products-card__button" type="button" ingredients_two-open>
-                <svg class="icon">
-                  <use href="./img/icons.svg#arrow"></use>
-                </svg>
-              </button>
-            </div>
-          </li>
-          <li class="products-list__item">
-            <div class="products-card card_milkshake">
-              <div class="products-card__frame">
-                <div class="products-card__image">
-                  <img
-                        srcset="./img/jpeg/img-products_2.jpg 1x, ./img/jpeg/img-products_2@x2.jpg 2x"       
-                        src="./img/jpeg/img-products_2.jpg" 
-                        alt="Milkshake"
-                      />
+            </li>
+            <li class="products-list__item">
+              <div class="products-card card_milkshake">
+                <div class="products-card__frame">
+                  <div class="products-card__image">
+                    <img
+                          srcset="./img/jpeg/img-products_2.jpg 1x, ./img/jpeg/img-products_2@x2.jpg 2x"       
+                          src="./img/jpeg/img-products_2.jpg" 
+                          alt="Milkshake"
+                        />
+                  </div>
                 </div>
+                <div class="products-card__info">
+                  <h3 class="products-card__title">Milkshake</h3>
+                  <p class="products-card__subtitle">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice</p>
+                </div>
+                <button class="products-card__button" type="button" ingredients_three-open>
+                  <svg class="icon">
+                    <use href="./img/icons.svg#arrow"></use>
+                  </svg>
+                </button>
               </div>
-              <div class="products-card__info">
-                <h3 class="products-card__title">Milkshake</h3>
-                <p class="products-card__subtitle">Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and other sweets of your choice</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- how it's made -->
+      <section class="how-its-made" id="how-its-made">
+        <div class="container"> 
+          <p class="how-its-made__subtitle section__subtitle">Tradition And Love</p>
+          <h2 class="how-its-made__title section__title">How it's made?</h2>
+          <div class="how-its-made__info">
+            <div class="how-its-made__frame">
+              <div class="how-its-made__image">
+                <img
+                srcset="./img/jpeg/img-how-its-made.jpg 1x, ./img/jpeg/img-how-its-made@x2.jpg 2x"       
+                src="./img/jpeg/img-how-its-made.jpg" 
+                alt="Cow"
+                />
               </div>
-              <button class="products-card__button" type="button" ingredients_three-open>
-                <svg class="icon">
-                  <use href="./img/icons.svg#arrow"></use>
-                </svg>
-              </button>
             </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- how it's made -->
-    <section class="how-its-made" id="how-its-made">
-      <div class="container"> 
-        <p class="how-its-made__subtitle section__subtitle">Tradition And Love</p>
-        <h2 class="how-its-made__title section__title">How it's made?</h2>
-        <div class="how-its-made__info">
-          <div class="how-its-made__frame">
-            <div class="how-its-made__image">
-              <img
-              srcset="./img/jpeg/img-how-its-made.jpg 1x, ./img/jpeg/img-how-its-made@x2.jpg 2x"       
-              src="./img/jpeg/img-how-its-made.jpg" 
-              alt="Cow"
-              />
+            <div class="how-its-made__thumb">
+              <div class="how-its-made__text">
+                <p>Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts. </p>
+                <p>We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes. </p>
+                <p>This is enough to choose ice cream and coffee for any mood!</p>
+              </div>
+              <button class="how-its-made__button button" type="button" read-more-open>
+                Read more
+                <span class="button-arrow">
+                  <svg class="icon">
+                    <use href="./img/icons.svg#ep-arrow"></use>
+                  </svg>
+                </span>
+              </button>
             </div>
           </div>
-          <div class="how-its-made__thumb">
-            <div class="how-its-made__text">
-              <p>Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts. </p>
-              <p>We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes. </p>
-              <p>This is enough to choose ice cream and coffee for any mood!</p>
-            </div>
-            <button class="how-its-made__button button" type="button" read-more-open>
-              Read more
-              <span class="button-arrow">
+          <ul class="how-its-made-list">
+            <li class="how-its-made-list__item">
+              <div class="how-its-made-list__icon">
                 <svg class="icon">
-                  <use href="./img/icons.svg#ep-arrow"></use>
+                  <use href="./img/icons.svg#cow"></use>
                 </svg>
-              </span>
-            </button>
+              </div>
+              <p class="how-its-made-list__number">721</p>
+              <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li class="how-its-made-list__item">
+              <div class="how-its-made-list__icon">
+                <svg class="icon">
+                  <use href="./img/icons.svg#weight"></use>
+                </svg>
+              </div>
+              <p class="how-its-made-list__number">16KG</p>
+              <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+            <li class="how-its-made-list__item">
+              <div class="how-its-made-list__icon">
+                <svg class="icon">
+                  <use href="./img/icons.svg#ice-cream"></use>
+                </svg>
+              </div>
+              <p class="how-its-made-list__number">84</p>
+              <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- reviews -->
+      <section class="reviews">
+        <div class="container">    
+          <h2 class="visually-hidden">Reviews</h2>
+          <div class="reviews__image">
+            <img
+                  srcset="./img/jpeg/img-review_1.jpg 1x, ./img/jpeg/img-review_1@x2.jpg 2x"       
+                  src="./img/jpeg/img-review_1.jpg" 
+                  alt="Ice Cream"
+            />
           </div>
+          <ul class="reviews-list">
+            <li class="reviews-list__item">
+              <div class="reviews-list__image">
+                <img
+                  srcset="./img/jpeg/img-review_avatar_1.jpg 1x, ./img/jpeg/img-review_avatar_1@x2.jpg 2x"       
+                  src="./img/jpeg/img-review_avatar_1.jpg" 
+                  alt="Customer Photo"
+                />
+              </div>
+            </li>
+            <li class="reviews-list__item">
+              <p class="reviews-list__text">I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful serving, cozy atmosphere and polite staff.</p>
+            </li>
+            <li class="reviews-list__item">
+              <p class="reviews-list__info">Emily, Los Angeles</p>
+              <ul class="reviews-set">
+                <li class="reviews-set__item">
+                  <button class="reviews-set__button" type="button"></button>
+                </li>
+                <li class="reviews-set__item">
+                  <button class="reviews-set__button" type="button"></button>
+                </li>
+                <li class="reviews-set__item">
+                  <button class="reviews-set__button" type="button"></button>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-        <ul class="how-its-made-list">
-          <li class="how-its-made-list__item">
-            <div class="how-its-made-list__icon">
-              <svg class="icon">
-                <use href="./img/icons.svg#cow"></use>
-              </svg>
-            </div>
-            <p class="how-its-made-list__number">721</p>
-            <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-          </li>
-          <li class="how-its-made-list__item">
-            <div class="how-its-made-list__icon">
-              <svg class="icon">
-                <use href="./img/icons.svg#weight"></use>
-              </svg>
-            </div>
-            <p class="how-its-made-list__number">16KG</p>
-            <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-          </li>
-          <li class="how-its-made-list__item">
-            <div class="how-its-made-list__icon">
-              <svg class="icon">
-                <use href="./img/icons.svg#ice-cream"></use>
-              </svg>
-            </div>
-            <p class="how-its-made-list__number">84</p>
-            <p class="how-its-made-list__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- reviews -->
-    <section class="reviews">
-      <div class="container">    
-        <h2 class="visually-hidden">Reviews</h2>
-        <div class="reviews__image">
-          <img
-                srcset="./img/jpeg/img-review_1.jpg 1x, ./img/jpeg/img-review_1@x2.jpg 2x"       
-                src="./img/jpeg/img-review_1.jpg" 
-                alt="Ice Cream"
-          />
+      </section>
+      <!-- contacts -->
+      <section class="contacts" id="contact">
+        <div class="container">
+          <h2 class="visually-hidden">Contacts</h2>
+          <ul class="contacts-list">
+            <li class="contacts-list__item">
+              <div class="contacts-card">
+                <h3 class="contacts-card__title">Cafe</h3>
+                <address class="contacts-address">
+                  <div class="contacts-address__info">
+                    <p class="contacts-address__city">Chicago</p>
+                    <a href="https://www.google.com/maps/place/10340+Ridgeland+Ave,+Chicago+Ridge,+IL+60415,+%D0%A1%D0%A8%D0%90/@41.7034056,-87.7819292,17z/data=!3m1!4b1!4m5!3m4!1s0x880e39ad302b2c19:0xc808e9b14d04eb2b!8m2!3d41.7034016!4d-87.7797405" target="_blank" class="contacts-address__street">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
+                  </div>
+                  <div class="contacts-address__info">
+                    <div class="contacts-address__weekdays">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Monday - Friday</li>
+                        <li class="contacts-address__item">06:00 am - 10:00 pm</li>
+                      </ul>
+                    </div>
+                    <div class="contacts-address__weekends">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Saturday - Sunday</li>
+                        <li class="contacts-address__item">08:00 am - 16:00 pm</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="contacts-address__info">
+                    <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
+                    <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
+                  </div>
+                </address>
+              </div>
+            </li>
+            <li class="contacts-list__item">
+              <div class="contacts-card">
+                <h3 class="contacts-card__title">Foodtruck</h3>
+                <address class="contacts-address">
+                  <div class="contacts-address__info">
+                    <p class="contacts-address__city">Los Angeles</p>
+                    <a href="https://www.google.com/maps/place/1003+Manhattan+Ave,+Manhattan+Beach,+CA+90266,+%D0%A1%D0%A8%D0%90/@33.8835307,-118.4125173,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b3eca6743829:0x98448969b9b4373d!8m2!3d33.8835263!4d-118.4103286" target="_blank" class="contacts-address__street">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
+                  </div>
+                  <div class="contacts-address__info">
+                    <div class="contacts-address__weekdays">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Monday - Friday</li>
+                        <li class="contacts-address__item">06:00 am - 10:00 pm</li>
+                      </ul>
+                    </div>
+                    <div class="contacts-address__weekends">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Saturday - Sunday</li>
+                        <li class="contacts-address__item">08:00 am - 16:00 pm</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="contacts-address__info">
+                    <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
+                    <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
+                  </div>
+                </address>
+              </div>
+            </li>
+            <li class="contacts-list__item">
+              <div class="contacts-card">
+                <h3 class="contacts-card__title">Cafe</h3>
+                <address class="contacts-address">
+                  <div class="contacts-address__info">
+                    <p class="contacts-address__city">New York</p>
+                    <a href="https://www.google.com/maps/place/726+Sterling+Pl,+Brooklyn,+NY+11216,+%D0%A1%D0%A8%D0%90/@40.6726978,-73.9569227,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25b9e1735b38f:0xb5fe454b88e9c2c0!8m2!3d40.6726938!4d-73.954734" target="_blank" class="contacts-address__street">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
+                  </div>
+                  <div class="contacts-address__info">
+                    <div class="contacts-address__weekdays">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Monday - Friday</li>
+                        <li class="contacts-address__item">06:00 am - 10:00 pm</li>
+                      </ul>
+                    </div>
+                    <div class="contacts-address__weekends">
+                      <ul class="contacts-address__list">
+                        <li class="contacts-address__item">Saturday - Sunday</li>
+                        <li class="contacts-address__item">08:00 am - 16:00 pm</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="contacts-address__info">
+                    <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
+                    <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
+                  </div>
+                </address>
+              </div>
+            </li>
+          </ul>
+          <ul class="contacts-buttons">
+            <li class="contacts-buttons__item">
+              <button class="contacts-buttons__button button" type="button" our-location-open>
+                Our Locations
+                <span class="button-arrow">
+                  <svg class="icon">
+                    <use href="./img/icons.svg#ep-arrow"></use>
+                  </svg>
+                </span>
+              </button>
+            </li>
+            <li class="contacts-buttons__item">
+              <button class="contacts-buttons__button button--transparent" type="button" franchise-open>
+                Franchise
+                <span class="button-arrow">
+                  <svg class="icon">
+                    <use href="./img/icons.svg#ep-arrow"></use>
+                  </svg>
+                </span>
+              </button>
+            </li>
+          </ul>
         </div>
-        <ul class="reviews-list">
-          <li class="reviews-list__item">
-            <div class="reviews-list__image">
-              <img
-                srcset="./img/jpeg/img-review_avatar_1.jpg 1x, ./img/jpeg/img-review_avatar_1@x2.jpg 2x"       
-                src="./img/jpeg/img-review_avatar_1.jpg" 
-                alt="Customer Photo"
-              />
-            </div>
-          </li>
-          <li class="reviews-list__item">
-            <p class="reviews-list__text">I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In addition, you have beautiful serving, cozy atmosphere and polite staff.</p>
-          </li>
-          <li class="reviews-list__item">
-            <p class="reviews-list__info">Emily, Los Angeles</p>
-            <ul class="reviews-set">
-              <li class="reviews-set__item">
-                <button class="reviews-set__button" type="button"></button>
-              </li>
-              <li class="reviews-set__item">
-                <button class="reviews-set__button" type="button"></button>
-              </li>
-              <li class="reviews-set__item">
-                <button class="reviews-set__button" type="button"></button>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- contacts -->
-    <section class="contacts" id="contact">
-      <div class="container">
-        <h2 class="visually-hidden">Contacts</h2>
-        <ul class="contacts-list">
-          <li class="contacts-list__item">
-            <div class="contacts-card">
-              <h3 class="contacts-card__title">Cafe</h3>
-              <address class="contacts-address">
-                <div class="contacts-address__info">
-                  <p class="contacts-address__city">Chicago</p>
-                  <a href="https://www.google.com/maps/place/10340+Ridgeland+Ave,+Chicago+Ridge,+IL+60415,+%D0%A1%D0%A8%D0%90/@41.7034056,-87.7819292,17z/data=!3m1!4b1!4m5!3m4!1s0x880e39ad302b2c19:0xc808e9b14d04eb2b!8m2!3d41.7034016!4d-87.7797405" target="_blank" class="contacts-address__street">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</a>
-                </div>
-                <div class="contacts-address__info">
-                  <div class="contacts-address__weekdays">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Monday - Friday</li>
-                      <li class="contacts-address__item">06:00 am - 10:00 pm</li>
-                    </ul>
-                  </div>
-                  <div class="contacts-address__weekends">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Saturday - Sunday</li>
-                      <li class="contacts-address__item">08:00 am - 16:00 pm</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="contacts-address__info">
-                  <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
-                  <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
-                </div>
-              </address>
-            </div>
-          </li>
-          <li class="contacts-list__item">
-            <div class="contacts-card">
-              <h3 class="contacts-card__title">Foodtruck</h3>
-              <address class="contacts-address">
-                <div class="contacts-address__info">
-                  <p class="contacts-address__city">Los Angeles</p>
-                  <a href="https://www.google.com/maps/place/1003+Manhattan+Ave,+Manhattan+Beach,+CA+90266,+%D0%A1%D0%A8%D0%90/@33.8835307,-118.4125173,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2b3eca6743829:0x98448969b9b4373d!8m2!3d33.8835263!4d-118.4103286" target="_blank" class="contacts-address__street">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</a>
-                </div>
-                <div class="contacts-address__info">
-                  <div class="contacts-address__weekdays">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Monday - Friday</li>
-                      <li class="contacts-address__item">06:00 am - 10:00 pm</li>
-                    </ul>
-                  </div>
-                  <div class="contacts-address__weekends">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Saturday - Sunday</li>
-                      <li class="contacts-address__item">08:00 am - 16:00 pm</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="contacts-address__info">
-                  <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
-                  <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
-                </div>
-              </address>
-            </div>
-          </li>
-          <li class="contacts-list__item">
-            <div class="contacts-card">
-              <h3 class="contacts-card__title">Cafe</h3>
-              <address class="contacts-address">
-                <div class="contacts-address__info">
-                  <p class="contacts-address__city">New York</p>
-                  <a href="https://www.google.com/maps/place/726+Sterling+Pl,+Brooklyn,+NY+11216,+%D0%A1%D0%A8%D0%90/@40.6726978,-73.9569227,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25b9e1735b38f:0xb5fe454b88e9c2c0!8m2!3d40.6726938!4d-73.954734" target="_blank" class="contacts-address__street">726 Sterling Pl, Brooklyn, NY 11222, USA</a>
-                </div>
-                <div class="contacts-address__info">
-                  <div class="contacts-address__weekdays">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Monday - Friday</li>
-                      <li class="contacts-address__item">06:00 am - 10:00 pm</li>
-                    </ul>
-                  </div>
-                  <div class="contacts-address__weekends">
-                    <ul class="contacts-address__list">
-                      <li class="contacts-address__item">Saturday - Sunday</li>
-                      <li class="contacts-address__item">08:00 am - 16:00 pm</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="contacts-address__info">
-                  <a href="tel:+610383766284" class="contacts-address__link">+61(0) 383 766 284</a>
-                  <a href="mailto:noreply@envato.com" class="contacts-address__link">noreply@envato.com</a>
-                </div>
-              </address>
-            </div>
-          </li>
-        </ul>
-        <ul class="contacts-buttons">
-          <li class="contacts-buttons__item">
-            <button class="contacts-buttons__button button" type="button" our-location-open>
-              Our Locations
-              <span class="button-arrow">
-                <svg class="icon">
-                  <use href="./img/icons.svg#ep-arrow"></use>
-                </svg>
-              </span>
-            </button>
-          </li>
-          <li class="contacts-buttons__item">
-            <button class="contacts-buttons__button button--transparent" type="button" franchise-open>
-              Franchise
-              <span class="button-arrow">
-                <svg class="icon">
-                  <use href="./img/icons.svg#ep-arrow"></use>
-                </svg>
-              </span>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </main>
+
     <!-- footer -->
     <footer class="footer">
       <div class="container">
